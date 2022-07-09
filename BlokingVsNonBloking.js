@@ -1,7 +1,7 @@
 //Importando funcionalidades de leitura e cópia 
 const {
     readFileSync, 
-    wiriteFileSync,
+    writeFileSync,
 } = require('fs'); //File System
 
 //Importando funcionalidade para achar o caminho do arquivo
@@ -14,7 +14,7 @@ const copyFileBloking = (source, dest) => {
     console.log('Lendo Bloking conteúdo');
     const content = readFileSync(source);
     console.log('Escrevendo Bloking conteúdo');
-    wiriteFileSync(content);
+    writeFileSync(dest, content);
 };
 
 const sourcePath = join(__dirname, 'files', 'exemplo.txt');
