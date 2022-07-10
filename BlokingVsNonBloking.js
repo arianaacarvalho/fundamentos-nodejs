@@ -13,6 +13,7 @@ const{
     join, //Faz a distinsão de sistemas operacionais
 } = require('path');
 
+//Duração da execução
 const logduration = (label, startTime) => {
     console.log(`${label} levou ${Date.now() - startTime}ms`);
 }
@@ -33,6 +34,7 @@ const destPath = join(__dirname, 'files', 'exemple.copy.bloking.txt');
 copyFileBloking(sourcePath, destPath);
 console.log("Cópia Bloking com sucesso!");
 
+//Separador para as funções
 console.log("*".repeat(50));
 
 //função copia e escrita - NonBloking
