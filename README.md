@@ -6,6 +6,7 @@
 - Non Bloking
 - Callback
 - Times
+- Promises
 
 ## Curso
 - Jornada: Desenvolvimento Back End
