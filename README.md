@@ -7,6 +7,7 @@
 - Callback
 - Times
 - Promises
+- EventEmiters
 
 ## Curso
 - Jornada: Desenvolvimento Back End
