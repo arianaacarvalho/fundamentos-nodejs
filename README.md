@@ -8,6 +8,7 @@
 - Times
 - Promises
 - EventEmiters
+- Generators
 
 ## Curso
 - Jornada: Desenvolvimento Back End
