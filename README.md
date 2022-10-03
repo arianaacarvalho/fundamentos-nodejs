@@ -1,4 +1,4 @@
-# Mão no código
+# Fundamentos de Node.js
 - Esse repositório tem como intuito mostrar minhas atividades do curso Fundamentos de Node.js
 
 ## Aprendizado
